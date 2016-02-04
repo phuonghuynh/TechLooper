@@ -883,7 +883,7 @@
   "allChallengesSearch": "All Challenges",
   "invalidDomainName": "Invalid domain name format",
   "emailDomainNotMatch": "Email domain is invalid",
-  "joinInternalChallengeWith": "Join with your email from:",
+  "joinInternalChallengeWith": "Verify with your email from:",
   "useYourEmailDomain": "This is an internal challenge. Use your ",
   "toRegister": "email to verify registration",
   "enterYourPassword": "Enter your password",

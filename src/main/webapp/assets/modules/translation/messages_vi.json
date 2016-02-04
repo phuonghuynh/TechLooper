@@ -888,7 +888,7 @@
   "allChallengesSearch": "Mọi Thử Thách",
   "invalidDomainName": "Tên miền không đúng định dạng",
   "emailDomainNotMatch": "Tên miền email không hợp lệ",
-  "joinInternalChallengeWith": "Tham gia bằng email với tên miền:",
+  "joinInternalChallengeWith": "Xác nhận tham gia bằng email với tên miền:",
   "useYourEmailDomain": "Đây là thử thách nội bộ. Sử dụng email",
   "toRegister": "để xác nhận đăng ký.",
   "enterYourPassword": "Nhập mật khẩu",
