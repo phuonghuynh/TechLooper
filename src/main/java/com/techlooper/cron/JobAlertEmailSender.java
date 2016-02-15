@@ -37,6 +37,8 @@ public class JobAlertEmailSender {
 
     private static final String VIETNAMWORKS_CRAWL_SOURCE = "vietnamworks";
 
+    private static final String OTHERS_CRAWL_SOURCE = "";
+
     @Value("${jobAlert.enable}")
     private Boolean enableJobAlert;
 
@@ -80,6 +82,7 @@ public class JobAlertEmailSender {
                         JobSearchResponse jobSearchResponse = jobAggregatorService.findJob(criteria);
 
                         criteria.setSize(OTHER_JOB_SOURCE_SIZE);
+                        criteria.setCrawlSource(OTHERS_CRAWL_SOURCE);
                         jobSearchResponse.addJobs(jobAggregatorService.findJob(criteria).getJobs());
 
                         if (jobSearchResponse.getTotalJob() > 0) {
